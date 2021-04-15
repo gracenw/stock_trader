@@ -36,8 +36,8 @@ namespace stock_trader
             using (System.IO.Ports.SerialPort port = new System.IO.Ports.SerialPort("/dev/ttyACM0", 9600))
             {
                 port.Open();
+                CurrentSymbol.Text = "port opened";
             }
-
 
             //upon clicking the Select button, a request sets the current symbol to the one selected
             var client = new RestSharp.RestClient("https://cloud.iexapis.com");
@@ -46,7 +46,6 @@ namespace stock_trader
             //var response = client.Get(request);
             //float latest_price = float.Parse(response.Content, System.Globalization.CultureInfo.InvariantCulture);
             //CurrentSymbol.Text = $"Current stock value: {latest_price}";
-            CurrentSymbol.Text = send_slope().ToString();
         }
     }
 }
