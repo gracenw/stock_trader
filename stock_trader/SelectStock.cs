@@ -36,7 +36,7 @@ namespace stock_trader
             using (System.IO.Ports.SerialPort port = new System.IO.Ports.SerialPort("/dev/ttyACM0", 9600))
             {
                 port.Open();
-                CurrentSymbol.Text = "port opened";
+                if(port.IsOpen) CurrentSymbol.Text = "port opened";
             }
 
             //upon clicking the Select button, a request sets the current symbol to the one selected
