@@ -166,6 +166,7 @@
     <Content Include="obj\Debug\stock_trader.exe" />
     <Content Include="obj\Debug\stock_trader.pdb" />
     <Content Include="publish\setup.exe" />
+    <Content Include="SerialComm.c" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
