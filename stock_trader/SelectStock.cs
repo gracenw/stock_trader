@@ -40,9 +40,9 @@ namespace stock_trader
             }
 
             //upon clicking the Select button, a request sets the current symbol to the one selected
-            var client = new RestSharp.RestClient("https://cloud.iexapis.com");
-            var request = new RestSharp.RestRequest($"/stable/stock/{SymbolBox.SelectedItem}/quote/latestPrice"); //change this for security measures
-            request.AddParameter("token", "pk_423ad25e4bc94c58a425030b2d6edcfa"); //change this for security measures
+            //var client = new RestSharp.RestClient("https://cloud.iexapis.com");
+            //var request = new RestSharp.RestRequest($"/stable/stock/{SymbolBox.SelectedItem}/quote/latestPrice"); //change this for security measures
+            //request.AddParameter("token", "pk_423ad25e4bc94c58a425030b2d6edcfa"); //change this for security measures
             //var response = client.Get(request);
             //float latest_price = float.Parse(response.Content, System.Globalization.CultureInfo.InvariantCulture);
             //CurrentSymbol.Text = $"Current stock value: {latest_price}";
