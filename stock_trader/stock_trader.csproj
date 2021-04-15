@@ -98,6 +98,14 @@
     <EmbeddedResource Include="SelectStock.resx">
       <DependentUpon>SelectStock.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="bin\Debug\app.publish\Application Files\stock_trader_1_0_0_1\RestSharp.dll.deploy" />
+    <None Include="bin\Debug\app.publish\Application Files\stock_trader_1_0_0_1\stock_trader.exe.config.deploy" />
+    <None Include="bin\Debug\app.publish\Application Files\stock_trader_1_0_0_1\stock_trader.exe.deploy" />
+    <None Include="bin\Debug\app.publish\Application Files\stock_trader_1_0_0_1\stock_trader.exe.manifest" />
+    <None Include="bin\Debug\app.publish\stock_trader.application" />
+    <None Include="bin\Debug\stock_trader.application" />
+    <None Include="bin\Debug\stock_trader.exe.config" />
+    <None Include="bin\Debug\stock_trader.exe.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -124,6 +132,17 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\app.publish\setup.exe" />
+    <Content Include="bin\Debug\app.publish\stock_trader.exe" />
+    <Content Include="bin\Debug\RestSharp.dll" />
+    <Content Include="bin\Debug\RestSharp.xml" />
+    <Content Include="bin\Debug\stock_trader.exe" />
+    <Content Include="bin\Debug\stock_trader.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
