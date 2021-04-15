@@ -61,19 +61,10 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UrObkD2DqKUCrCLkSvZT0TcWLhb3b2/rHjUVBhx53zM=</dsig:DigestValue>
+        <dsig:DigestValue>DZvNHyJeDoSfSOaOn9tr21TX8lJv0jihy7Yh8wtGDfc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="SerialComm.c" size="2178">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>zSg5DqFjQl9GF6PF9RqRS2LoekmE/fawNHbiab71CDA=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="stock_trader.exe.config" size="189">
     <hash>
       <dsig:Transforms>

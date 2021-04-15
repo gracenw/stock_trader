@@ -134,7 +134,6 @@
     <Content Include="bin\Debug\RestSharp.xml" />
     <Content Include="bin\Debug\stock_trader.exe" />
     <Content Include="bin\Debug\stock_trader.pdb" />
-    <Content Include="SerialComm.c" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
