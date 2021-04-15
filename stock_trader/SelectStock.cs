@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using RestSharp;
+using System.Net.Http;
 
 namespace stock_trader
 {
@@ -33,6 +34,12 @@ namespace stock_trader
         private void SendNewSymbol(object sender, EventArgs e)
         {
             //upon clicking the Select button, a request sets the current symbol to the one selected
+            //HttpClient client = new HttpClient();
+            //client.BaseAddress = new Uri("https://cloud.iexapis.com/");
+            //HttpResponseMessage response = await client.GetAsync($"stable/stock/{SymbolBox.SelectedItem}/quote/latestPrice");
+            //response.EnsureSuccessStatusCode();
+            //string responseBody = await response.Content.ReadAsStringAsync();
+
             var client = new RestSharp.RestClient("https://cloud.iexapis.com");
             var request = new RestSharp.RestRequest($"/stable/stock/{SymbolBox.SelectedItem}/quote/latestPrice"); //change this for security measures
             request.AddParameter("token", "pk_423ad25e4bc94c58a425030b2d6edcfa"); //change this for security measures
