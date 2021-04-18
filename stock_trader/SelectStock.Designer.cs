@@ -127,7 +127,7 @@ namespace stock_trader
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(549, 383);
+            this.ClientSize = new System.Drawing.Size(582, 383);
             this.Controls.Add(this.CreditsIEXCloud);
             this.Controls.Add(this.LatestPriceLabel);
             this.Controls.Add(this.LatestPrice);
