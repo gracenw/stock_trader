@@ -28,13 +28,12 @@ namespace stock_trader
 
         private void Populate()
         {
-            //send request to return all available symbols and then autofill the dropdown box with text symbols
-            var client = new RestSharp.RestClient("https://cloud.iexapis.com");
-            var request = new RestSharp.RestRequest($"/ref-data/iex/symbols");
-            request.AddParameter("token", "pk_423ad25e4bc94c58a425030b2d6edcfa"); //change this for security measures
-            var response = client.Get(request);
-            //Console.WriteLine(response.Content);
-            DropDown.Items.Add("twtr");
+            //load all nasdaq stocks into dropdown
+            string[] lines = System.IO.File.ReadAllLines(@"..\..\symbols.txt");
+            for(int i = 0; i < lines.Length; i++)
+            {
+                DropDown.Items.Add(lines[i]);
+            }
         }
 
         private float PollLatestPrice()

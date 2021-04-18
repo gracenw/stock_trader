@@ -45,6 +45,7 @@ namespace stock_trader
             this.DropDown.FormattingEnabled = true;
             this.DropDown.Location = new System.Drawing.Point(126, 361);
             this.DropDown.Name = "DropDown";
+            this.DropDown.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.DropDown.Size = new System.Drawing.Size(241, 35);
             this.DropDown.TabIndex = 0;
             // 
@@ -76,7 +77,7 @@ namespace stock_trader
             this.WindowTitle.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WindowTitle.Location = new System.Drawing.Point(96, 75);
             this.WindowTitle.Name = "WindowTitle";
-            this.WindowTitle.Size = new System.Drawing.Size(910, 53);
+            this.WindowTitle.Size = new System.Drawing.Size(758, 44);
             this.WindowTitle.TabIndex = 3;
             this.WindowTitle.Text = "Stock Trader Interactive Monitor                  ";
             this.WindowTitle.UseWaitCursor = true;

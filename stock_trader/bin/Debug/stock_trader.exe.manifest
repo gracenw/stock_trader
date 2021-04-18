@@ -61,7 +61,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HoB1Jn2ExpD3COvq00qoZdEuxsc25V3gsy8v1pVM0fI=</dsig:DigestValue>
+        <dsig:DigestValue>0mJOdE41NnV35hCcejev+rxzyUb2RTuVQk7mGIHLRY0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -71,7 +71,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>8zbDgG9iuHPpEtcBFrYJNqnHELyWNndvEwkNYmFIQwc=</dsig:DigestValue>
+      <dsig:DigestValue>fBF6rxDeCXyIfH491IQknlBTXZQWd1OxPfJB8cpa67Q=</dsig:DigestValue>
     </hash>
   </file>
   <file name="bin\Debug\stock_trader.pdb" size="34304">
@@ -80,7 +80,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>jgzz+wRFV/9+hp10W8VfG95SP1+scwuukcaq3XQIZc8=</dsig:DigestValue>
+      <dsig:DigestValue>G/nDiOh/9DMzlQE1wMtCmEs8SVTikPB+kCOgNW1ZZqc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="stock_trader.exe.config" size="189">
@@ -90,6 +90,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="symbols.txt" size="61276">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2LOk8UAHdWgedFVImkNxVqKpIwDmFeMEwwz8kUS0Wso=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
