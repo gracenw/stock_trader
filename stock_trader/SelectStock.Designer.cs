@@ -73,13 +73,12 @@ namespace stock_trader
             // WindowTitle
             // 
             this.WindowTitle.AutoSize = true;
-            this.WindowTitle.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WindowTitle.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WindowTitle.Location = new System.Drawing.Point(96, 75);
             this.WindowTitle.Name = "WindowTitle";
-            this.WindowTitle.Size = new System.Drawing.Size(517, 42);
+            this.WindowTitle.Size = new System.Drawing.Size(910, 53);
             this.WindowTitle.TabIndex = 3;
-            this.WindowTitle.Text = "Stock Trader Interactive Monitor";
-            this.WindowTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.WindowTitle.Text = "Stock Trader Interactive Monitor                  ";
             this.WindowTitle.UseWaitCursor = true;
             // 
             // SelectedSymbolLabel
@@ -130,7 +129,7 @@ namespace stock_trader
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(712, 499);
+            this.ClientSize = new System.Drawing.Size(748, 507);
             this.Controls.Add(this.CreditsIEXCloud);
             this.Controls.Add(this.LatestPriceLabel);
             this.Controls.Add(this.LatestPrice);
