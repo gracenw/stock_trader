@@ -43,7 +43,7 @@ namespace stock_trader
             // 
             this.DropDown.Font = new System.Drawing.Font("Trebuchet MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DropDown.FormattingEnabled = true;
-            this.DropDown.Location = new System.Drawing.Point(116, 364);
+            this.DropDown.Location = new System.Drawing.Point(126, 361);
             this.DropDown.Name = "DropDown";
             this.DropDown.Size = new System.Drawing.Size(241, 35);
             this.DropDown.TabIndex = 0;
@@ -52,7 +52,7 @@ namespace stock_trader
             // 
             this.SelectSymbol.BackColor = System.Drawing.SystemColors.Info;
             this.SelectSymbol.Font = new System.Drawing.Font("Trebuchet MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SelectSymbol.Location = new System.Drawing.Point(390, 358);
+            this.SelectSymbol.Location = new System.Drawing.Point(400, 355);
             this.SelectSymbol.Name = "SelectSymbol";
             this.SelectSymbol.Size = new System.Drawing.Size(213, 49);
             this.SelectSymbol.TabIndex = 1;
@@ -64,7 +64,7 @@ namespace stock_trader
             // 
             this.CurrentSymbol.BackColor = System.Drawing.SystemColors.Info;
             this.CurrentSymbol.Font = new System.Drawing.Font("Trebuchet MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CurrentSymbol.Location = new System.Drawing.Point(420, 212);
+            this.CurrentSymbol.Location = new System.Drawing.Point(430, 209);
             this.CurrentSymbol.Name = "CurrentSymbol";
             this.CurrentSymbol.ReadOnly = true;
             this.CurrentSymbol.Size = new System.Drawing.Size(181, 33);
@@ -85,7 +85,7 @@ namespace stock_trader
             // 
             this.SelectedSymbolLabel.AutoSize = true;
             this.SelectedSymbolLabel.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SelectedSymbolLabel.Location = new System.Drawing.Point(110, 212);
+            this.SelectedSymbolLabel.Location = new System.Drawing.Point(120, 209);
             this.SelectedSymbolLabel.Name = "SelectedSymbolLabel";
             this.SelectedSymbolLabel.Size = new System.Drawing.Size(283, 29);
             this.SelectedSymbolLabel.TabIndex = 4;
@@ -96,7 +96,7 @@ namespace stock_trader
             // 
             this.LatestPriceLabel.AutoSize = true;
             this.LatestPriceLabel.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LatestPriceLabel.Location = new System.Drawing.Point(171, 283);
+            this.LatestPriceLabel.Location = new System.Drawing.Point(181, 280);
             this.LatestPriceLabel.Name = "LatestPriceLabel";
             this.LatestPriceLabel.Size = new System.Drawing.Size(220, 29);
             this.LatestPriceLabel.TabIndex = 6;
@@ -107,7 +107,7 @@ namespace stock_trader
             // 
             this.LatestPrice.BackColor = System.Drawing.SystemColors.Info;
             this.LatestPrice.Font = new System.Drawing.Font("Trebuchet MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LatestPrice.Location = new System.Drawing.Point(420, 283);
+            this.LatestPrice.Location = new System.Drawing.Point(430, 280);
             this.LatestPrice.Name = "LatestPrice";
             this.LatestPrice.ReadOnly = true;
             this.LatestPrice.Size = new System.Drawing.Size(181, 33);

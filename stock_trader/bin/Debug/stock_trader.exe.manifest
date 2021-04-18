@@ -61,7 +61,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FZo8zV8fei5T/ii2JRhNaOte3h+KCaLV3/HxSt1D1t8=</dsig:DigestValue>
+        <dsig:DigestValue>HoB1Jn2ExpD3COvq00qoZdEuxsc25V3gsy8v1pVM0fI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -71,7 +71,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Z8iuBhGJZptW0mKqweYtE3BhtMPjDoKoGpELvSVO6v4=</dsig:DigestValue>
+      <dsig:DigestValue>8zbDgG9iuHPpEtcBFrYJNqnHELyWNndvEwkNYmFIQwc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="bin\Debug\stock_trader.pdb" size="34304">
@@ -80,7 +80,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>mvt+sCYZRM+sigSnRKaDp1FHBQqPcgQQ6BLLq1zyLF8=</dsig:DigestValue>
+      <dsig:DigestValue>jgzz+wRFV/9+hp10W8VfG95SP1+scwuukcaq3XQIZc8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="stock_trader.exe.config" size="189">
