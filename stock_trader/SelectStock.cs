@@ -29,11 +29,12 @@ namespace stock_trader
         private void Populate()
         {
             //load all nasdaq stocks into dropdown
-            string[] lines = System.IO.File.ReadAllLines(@"..\..\symbols.txt");
-            for(int i = 0; i < lines.Length; i++)
-            {
-                DropDown.Items.Add(lines[i]);
-            }
+            //string[] lines = System.IO.File.ReadAllLines(@"/home/pi/stock_trader/stock_trader/symbol.txt");
+            //for(int i = 0; i < lines.Length; i++)
+            //{
+            //    DropDown.Items.Add(lines[i]);
+            //}
+            CurrentSymbol.Text = System.Environment.OSVersion.Platform.ToString();
         }
 
         private float PollLatestPrice()
