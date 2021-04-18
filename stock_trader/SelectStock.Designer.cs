@@ -97,11 +97,11 @@ namespace stock_trader
             // 
             this.LatestPriceLabel.AutoSize = true;
             this.LatestPriceLabel.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LatestPriceLabel.Location = new System.Drawing.Point(181, 280);
+            this.LatestPriceLabel.Location = new System.Drawing.Point(140, 280);
             this.LatestPriceLabel.Name = "LatestPriceLabel";
-            this.LatestPriceLabel.Size = new System.Drawing.Size(220, 29);
+            this.LatestPriceLabel.Size = new System.Drawing.Size(263, 29);
             this.LatestPriceLabel.TabIndex = 6;
-            this.LatestPriceLabel.Text = "Latest price quote:";
+            this.LatestPriceLabel.Text = "Latest percent change:";
             this.LatestPriceLabel.UseWaitCursor = true;
             // 
             // LatestPrice

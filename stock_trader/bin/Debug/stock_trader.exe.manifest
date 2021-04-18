@@ -54,24 +54,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stock_trader.exe" size="12200">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stock_trader.exe" size="12712">
       <assemblyIdentity name="stock_trader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qIpyxH18Lr3qlil/B9NvHlY5U/8i1Awq0mqFNcwWBc0=</dsig:DigestValue>
+        <dsig:DigestValue>m560QpYdAUsvDpl8rjyWOk8IhCUpUaNtwmeWz70+l6k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="bin\Debug\stock_trader.exe" size="11264">
+  <file name="bin\Debug\stock_trader.exe" size="11776">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>mAbaTWV33vL7OtKKsaHY+0b+qxWEJEAwhQZmAEI2doU=</dsig:DigestValue>
+      <dsig:DigestValue>Xrvm7mLLoqgh5QF465XeYAobb7uJEgmmyesElOdnkwE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="bin\Debug\stock_trader.pdb" size="34304">
@@ -80,7 +80,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>gdkmypNwt/OjxaDXd5yHGOPQSbX8WZY7xCZYsUCFQZY=</dsig:DigestValue>
+      <dsig:DigestValue>PWk5lYgSvXWAUvquiUk4aaC1YSrXYEtYLuoXIIEJ8Fk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="stock_trader.exe.config" size="189">
