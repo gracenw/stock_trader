@@ -28,19 +28,21 @@ namespace stock_trader
 
         private void Populate()
         {
-            //load all nasdaq stocks into dropdown
-            //string[] lines = System.IO.File.ReadAllLines(@"/home/pi/stock_trader/stock_trader/symbol.txt");
-            //for(int i = 0; i < lines.Length; i++)
-            //{
-            //    DropDown.Items.Add(lines[i]);
-            //}
-            CurrentSymbol.Text = System.Environment.OSVersion.Platform.ToString();
+            //load all nasdaq stocks into dropdown 
+            string loc;
+            if (System.Environment.OSVersion.Platform.ToString().Equals("Unix")) loc = @"/home/pi/stock_trader/stock_trader/symbols.txt";
+            else loc = @"..\..\symbols.txt";
+            string[] lines = System.IO.File.ReadAllLines(loc);
+            for(int i = 0; i < lines.Length; i++)
+            {
+                DropDown.Items.Add(lines[i]);
+            }
         }
 
         private float PollLatestPrice()
         {
-            var client = new RestSharp.RestClient("https://cloud.iexapis.com");
-            var request = new RestSharp.RestRequest($"/stable/stock/{CurrentSymbol.Text}/quote/latestPrice"); //change this for security measures
+            var client = new RestClient("https://cloud.iexapis.com");
+            var request = new RestRequest($"/stable/stock/{CurrentSymbol.Text}/quote/latestPrice"); //change this for security measures
             request.AddParameter("token", "pk_423ad25e4bc94c58a425030b2d6edcfa"); //change this for security measures
             var response = client.Get(request);
             float latest_price = float.Parse(response.Content, System.Globalization.CultureInfo.InvariantCulture);
