@@ -98,9 +98,7 @@
     <EmbeddedResource Include="SelectStock.resx">
       <DependentUpon>SelectStock.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="bin\Debug\stock_trader.application" />
     <None Include="bin\Debug\stock_trader.exe.config" />
-    <None Include="bin\Debug\stock_trader.exe.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -129,9 +127,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\app.publish\stock_trader.exe" />
-    <Content Include="bin\Debug\RestSharp.dll" />
-    <Content Include="bin\Debug\RestSharp.xml" />
     <Content Include="bin\Debug\stock_trader.exe" />
     <Content Include="bin\Debug\stock_trader.pdb" />
   </ItemGroup>
