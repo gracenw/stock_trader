@@ -75,6 +75,7 @@ namespace stock_trader
                     //    if (port.IsOpen) CurrentSymbol.Text = "port opened!";
                     //    port.Write("!" + servo.ToString());
                     //}
+                    Console.WriteLine(servo.ToString());
                 }
                 else Console.WriteLine(servo.ToString());
             }
