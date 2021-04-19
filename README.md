@@ -1,6 +1,5 @@
 # ECE 4180 Spring 2021 Final Project
-## Summary
-Insert summary here lol  
+  
   
 ## Installing & running GUI on the Raspberry Pi:  
 1. Install mono for the Pi, to run .NET applications in Linux  
