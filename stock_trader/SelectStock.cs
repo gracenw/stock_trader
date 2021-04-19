@@ -69,12 +69,12 @@ namespace stock_trader
                 }
                 if (System.Environment.OSVersion.Platform.ToString().Equals("Unix"))
                 {
-                    using (System.IO.Ports.SerialPort port = new System.IO.Ports.SerialPort("/dev/ttyACM0", 9600))
-                    {
-                        port.Open();
-                        if (port.IsOpen) CurrentSymbol.Text = "port opened!";
-                        port.Write("!" + servo.ToString());
-                    }
+                    //using (System.IO.Ports.SerialPort port = new System.IO.Ports.SerialPort("/dev/ttyACM0", 9600))
+                    //{
+                    //    port.Open();
+                    //    if (port.IsOpen) CurrentSymbol.Text = "port opened!";
+                    //    port.Write("!" + servo.ToString());
+                    //}
                 }
                 else Console.WriteLine(servo.ToString());
             }
