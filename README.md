@@ -3,7 +3,16 @@ __ECE 4180 Spring 2021 Final Project__
 Matthew Tan, Gracen Wallace  
 
 ## Parts List
-_insert parts list here_  
+* mBED microcontroller & USB cable
+* Raspberry Pi 4 & 16GB SD card loaded with Raspbian OS
+* Raspberry Pi mini-HDMI to HDMI cable
+* Raspberry Pi power cable
+* DC barrel jack mount & 5V wall wart
+* Jumper wires
+* Styrofoam
+* Carboard
+* Servo
+* HDMI monitor
 
 ## Schematic
 _insert schematic here_  
