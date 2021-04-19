@@ -130,6 +130,7 @@
     <Content Include="bin\Debug\stock_trader.exe" />
     <Content Include="bin\Debug\stock_trader.pdb" />
     <Content Include="symbols.txt" />
+    <Content Include="token.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
