@@ -1,7 +1,7 @@
 # ECE 4180 Spring 2021 Final Project
 
 
-Installing & running GUI on the Raspberry Pi:  
+## Installing & running GUI on the Raspberry Pi:  
 1. Install mono for the Pi, to run .NET applications in Linux  
 ```
 sudo apt-get upgrade  
@@ -11,7 +11,7 @@ sudo apt-get install mono-complete
 ```
 sudo apt-get install nuget
 ```
-3. Pull github repository to Pi  
+3. Pull GitHub repository to Pi  
 ```
 git clone https://github.com/gracenw/stock_trader
 ```
