@@ -10,7 +10,7 @@ Matthew Tan, Gracen Wallace
 * DC barrel jack mount & 5V wall wart
 * Jumper wires
 * Styrofoam
-* Carboard
+* Cardboard
 * Servo
 * HDMI monitor
 
