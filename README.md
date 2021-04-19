@@ -1,7 +1,9 @@
-# ECE 4180 Spring 2021 Final Project
+# Stock Trader
+## ECE 4180 Spring 2021 Final Project
+__documentation requirements so we dont have to keep checking the canvas announcement:__  
+Documentation on the project web page must include team member names, a parts list, schematic, source code, photos, and videos. Many students use this as an example of their work when interviewing, so it is worth additional effort to do a good job! The web page should explain the project idea, provide instructions, code, and hardware setups so that anyone could recreate your project along with photos and videos along with all team member names. Avoid posting web pages at random free web hosting sites (These can often disappear in a month) and somewhat silly meaningless names in titles like “My 4180 Project”. GitHub can have a documentation page. Documentation is a bit more critical this term since I can’t see your project this term!
   
-  
-## Installing & running GUI on the Raspberry Pi:  
+### Installing & running GUI on the Raspberry Pi:  
 1. Install mono for the Pi, to run .NET applications in Linux  
 ```
 sudo apt-get upgrade  
