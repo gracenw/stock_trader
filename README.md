@@ -16,7 +16,7 @@ Matthew Tan, Gracen Wallace
 * HDMI monitor
 
 ## Schematic
-_insert schematic here_  
+![schematic](schematic.png)
 
 ## Installing & running GUI on the Raspberry Pi  
 1. Install mono for the Pi, to run .NET applications in Linux  
