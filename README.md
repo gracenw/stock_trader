@@ -18,8 +18,8 @@ Matthew Tan, Gracen Wallace
 * Cardboard
 * Adhesive
 
-## Schematic
-
+## Network Schematic
+![ etworkschematic](networkschematic.png)
 
 ## Software Setup
 ### Installing & running GUI on the Raspberry Pi  
