@@ -19,7 +19,7 @@ Matthew Tan, Gracen Wallace
 * Adhesive
 
 ## Schematic
-![schematic](schematic.png)
+
 
 ## Software Setup
 ### Installing & running GUI on the Raspberry Pi  
