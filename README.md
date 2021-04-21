@@ -3,6 +3,7 @@ __ECE 4180 Spring 2021 Final Project__
 Matthew Tan, Gracen Wallace  
 
 ## Parts List
+### Electrical parts
 * [mBED microcontroller & cable](https://www.sparkfun.com/products/9564)
 * [Raspberry Pi 4 basic kit](https://www.canakit.com/raspberry-pi-4-basic-kit.html)
 * [16GB SD card](https://www.sparkfun.com/products/15051) with [Raspbian OS](https://www.raspberrypi.org/documentation/installation/noobs.md)
@@ -11,14 +12,17 @@ Matthew Tan, Gracen Wallace
 * [5V wall wart](https://www.sparkfun.com/products/12889)
 * [Jumper wires](https://www.sparkfun.com/products/11026)
 * [Servo](https://www.sparkfun.com/products/11884)
+* HDMI monitor
+### Structural Parts
 * Styrofoam
 * Cardboard
-* HDMI monitor
+* Adhesive
 
 ## Schematic
 ![schematic](schematic.png)
 
-## Installing & running GUI on the Raspberry Pi  
+## Software Setup
+### Installing & running GUI on the Raspberry Pi  
 1. Install mono for the Pi, to run .NET applications in Linux  
 ```
 sudo apt-get upgrade  
@@ -46,7 +50,4 @@ nuget restore stock_trader.sln
 mono /home/pi/stock_trader/stock_trader/bin/Debug/stock_trader.exe
 ```
 
-## mBED Source Code
-```c
-//insert source code here for mbed
-```
+## Hardware Setup
