@@ -2,8 +2,20 @@
 __ECE 4180 Spring 2021 Final Project__  
 Matthew Tan, Gracen Wallace  
 
+#### Table of Contents
+* [Summary](#summary)
+* [Parts List](#parts-list)
+  * [Electrical Parts](#electrical-parts)
+  * [Structural Parts](#structural-parts)
+* [Network Schematic](#network-schematic)
+* [Software Setup](#software-setup)
+  * [Installing & running GUI on the Raspberry Pi](#installing--running-gui-on-the-raspberry-pi)
+* [Hardware Setup](#hardware-setup)
+
+## Summary
+
 ## Parts List
-### Electrical parts
+### Electrical Parts
 * [mBED microcontroller & cable](https://www.sparkfun.com/products/9564)
 * [Raspberry Pi 4 basic kit](https://www.canakit.com/raspberry-pi-4-basic-kit.html)
 * [16GB SD card](https://www.sparkfun.com/products/15051) with [Raspbian OS](https://www.raspberrypi.org/documentation/installation/noobs.md)
