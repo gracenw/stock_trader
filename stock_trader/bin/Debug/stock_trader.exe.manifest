@@ -61,7 +61,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jFRdB3ex14PC5wJrANfi4s0yKp3qy9m5BwdwxxPoN6Q=</dsig:DigestValue>
+        <dsig:DigestValue>+vpU7FXhztHsn5rFtKM3bnXvfw59/VegkO2MQDavBLw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -71,7 +71,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>SfDP9S9kJGbZY8IQh232m4ecvsQXHEKIrj/QezROSM8=</dsig:DigestValue>
+      <dsig:DigestValue>2yeD5H6WeO34LSvUNos5NsTa0Bochjgmpotn41FMmsw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="bin\Debug\stock_trader.pdb" size="34304">
@@ -80,7 +80,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>naFk/itbyqPFPVDZv+2Ehwxcf+b5oX/czsO/qvvphnI=</dsig:DigestValue>
+      <dsig:DigestValue>vXCeMiK72wn26kS1eTPmLYE0sLK4ZPjlxgyKHgddCSA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="stock_trader.exe.config" size="189">
@@ -99,15 +99,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>2LOk8UAHdWgedFVImkNxVqKpIwDmFeMEwwz8kUS0Wso=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="token.txt" size="38">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Sp9wiBTGEARcNoZW7DuLKjGFITxynkoo+QfPdE9Oa8k=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
