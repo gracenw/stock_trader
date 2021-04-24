@@ -61,11 +61,11 @@ namespace stock_trader
                 double change_perc = double.Parse(response.Content, System.Globalization.CultureInfo.InvariantCulture);
                 LatestPrice.Text = change_perc.ToString();
                 double servo;
-                if (change_perc <= 0.05 && change_perc >= -0.05) servo = (change_perc + 0.05) / 0.1;
+                if (change_perc <= 0.05 && change_perc >= -0.05) servo = 1 - ((change_perc + 0.05) / 0.1);
                 else
                 {
-                    if (change_perc > 0.05) servo = 1.0;
-                    else servo = 0.0;
+                    if (change_perc > 0.05) servo = 0.0000;
+                    else servo = 1.0000;
                 }
                 if (System.Environment.OSVersion.Platform.ToString().Equals("Unix"))
                 {
