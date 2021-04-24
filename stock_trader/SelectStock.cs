@@ -59,7 +59,7 @@ namespace stock_trader
                 request.AddParameter("token", token);
                 var response = client.Get(request);
                 double change_perc = double.Parse(response.Content, System.Globalization.CultureInfo.InvariantCulture);
-                LatestPrice.Text = change_perc.ToString();
+                LatestPrice.Text = (change_perc * 100).ToString();
                 double servo;
                 if (change_perc <= 0.05 && change_perc >= -0.05) servo = 1 - ((change_perc + 0.05) / 0.1);
                 else
@@ -75,7 +75,7 @@ namespace stock_trader
                         port.Write("!" + servo.ToString());
                     }
                 }
-                Console.WriteLine(servo.ToString());
+                Console.WriteLine("Updated servo value from stock " + CurrentSymbol.Text + ": " + servo.ToString());
             }
         }
     }
