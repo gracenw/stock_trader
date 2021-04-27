@@ -31,7 +31,7 @@ Matthew Tan, Gracen Wallace
 * Adhesive
 
 ## Network Schematic
-![networkschematic](network.png)
+![networkschematic](media/network.png)
 
 ## Software Setup
 ### Installing & running GUI on the Raspberry Pi  
