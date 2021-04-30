@@ -112,7 +112,21 @@ mono /home/pi/stock_trader/stock_trader/bin/Debug/stock_trader.exe
 ### Constructing the cardboard arrow
 Cut and glued pieces of cardboard together to form the arrow
 <details>
- <summary>Wiring</summary>
+ <summary>Arrow</summary>
  
  ![cardboard box](media/arrow.jpg)
+</details>
+
+### Mounting the servo onto the housing
+Taped the servo arm onto the small cardboard base on top of the housing
+<details>
+ <summary>Servo mount</summary>
+ 
+ ![cardboard box](media/servomount2.jpg)
+</details>
+
+<details>
+ <summary>Servo mount close-up</summary>
+ 
+ ![cardboard box](media/servomount1.jpg)
 </details>
