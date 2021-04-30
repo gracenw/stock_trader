@@ -14,6 +14,10 @@ Matthew Tan, Gracen Wallace
   * [Installing & running GUI on the Raspberry Pi](#installing--running-gui-on-the-raspberry-pi)
 * [Hardware Setup](#hardware-setup)
   * [Building the cardboard housing](#building-the-cardboard-housing)
+  * [Connecting all of the components based on hardware schematic](#connecting-all-of-the-components-based-on-hardware-schematic)
+  * [Constructing the cardboard arrow](#constructing-the-cardboard-arrow)
+  * [Attaching the arrow onto the servo arm](#attaching-the-arrow-onto-the-servo-arm)
+  * [Finished product](#finished-product)
 
 ## Summary
 
