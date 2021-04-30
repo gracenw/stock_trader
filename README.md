@@ -81,9 +81,6 @@ mono /home/pi/stock_trader/stock_trader/bin/Debug/stock_trader.exe
 
 Serial pc(USBTX, USBRX);
 Servo servo(p21);
-DigitalOut led1(LED1);
-DigitalOut led2(LED2);
-DigitalOut led3(LED3);
 
 int main() {
     char begin;
