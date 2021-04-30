@@ -8,7 +8,7 @@ Matthew Tan, Gracen Wallace
   * [Electrical Parts](#electrical-parts)
   * [Structural Parts](#structural-parts)
 * [Schematics](#schematics)
-  * [Network Schematic](#network-schematics)
+  * [Network Schematic](#network-schematic)
   * [Hardware Schematics](#hardware-schematics)
 * [Software Setup](#software-setup)
   * [Installing & running GUI on the Raspberry Pi](#installing--running-gui-on-the-raspberry-pi)
