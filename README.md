@@ -35,7 +35,6 @@ Stock trader was created to allow investors to quickly and easily check on the s
 * [Servo](https://www.sparkfun.com/products/11884)
 * HDMI monitor
 ### Structural Parts
-* Styrofoam
 * Cardboard
 * Adhesive
 
