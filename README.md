@@ -70,9 +70,11 @@ mono /home/pi/stock_trader/stock_trader/bin/Debug/stock_trader.exe
 
 ## Hardware Setup
 ### Building the cardboard housing
+A spare cardboard box to house all of the components
 <details>
  <summary>Show or hide images</summary>
  
  ![cardboard box](media/box1.jpg)
+ ![cardboard box](media/box2.jpg)
 <details>
 
