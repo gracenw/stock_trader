@@ -76,7 +76,30 @@ mono /home/pi/stock_trader/stock_trader/bin/Debug/stock_trader.exe
 ```
 ### Downloading MBED code
 ```c
+#include "mbed.h"
+#include "Servo.h"
 
+Serial pc(USBTX, USBRX);
+Servo servo(p21);
+DigitalOut led1(LED1);
+DigitalOut led2(LED2);
+DigitalOut led3(LED3);
+
+int main() {
+    char begin;
+    char input[6];
+    float finput;
+    while(1) {
+        begin = pc.getc();
+        if (begin == '!') {
+            pc.gets(input, 6);
+            finput = atof(input);
+            servo = finput;
+            pc.puts(input);
+        }
+        wait(0.1);
+    }
+}
 ```
 
 ## Hardware Setup
