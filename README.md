@@ -20,10 +20,11 @@ Matthew Tan, Gracen Wallace
   * [Finished product](#finished-product)
 
 ## Summary
+Stock trader was created to allow investors to quickly and easily check on the status of their stocks of interest. This machine rotates an arrow based on the current percent change of any International Exchange stock, and updates every 15 seconds while powered on. The stock statistics are sourced from IEXCloud through the Raspberry Pi 4 and communicated to the MBED. A servo motor moves based on the scaled percentage value to illustrate changes in stock price. The user can also select their desired stock from a pre-populated dropdown of stock symbols, and view the numerical values of the current change percent.
 
 ## Parts List
 ### Electrical Parts
-* [mBED microcontroller & cable](https://www.sparkfun.com/products/9564)
+* [MBED microcontroller & cable](https://www.sparkfun.com/products/9564)
 * [Raspberry Pi 4 basic kit](https://www.canakit.com/raspberry-pi-4-basic-kit.html)
 * [16GB SD card](https://www.sparkfun.com/products/15051) with [Raspbian OS](https://www.raspberrypi.org/documentation/installation/noobs.md)
 * [Raspberry Pi micro-HDMI to HDMI cable](https://www.adafruit.com/product/4302?gclid=Cj0KCQjw1PSDBhDbARIsAPeTqrd1HVeETRREtpcVv8ZM6UxX5sJTC2wGqX1TRvw2GPZ63em6XvAB6BsaAtaoEALw_wcB)
