@@ -70,7 +70,7 @@ mono /home/pi/stock_trader/stock_trader/bin/Debug/stock_trader.exe
 
 ## Hardware Setup
 ### Building the cardboard housing
-A spare cardboard box to house all of the components
+1. A spare cardboard box to house all of the components
 <details>
  <summary>Front view</summary>
  
@@ -83,7 +83,7 @@ A spare cardboard box to house all of the components
  ![cardboard box](media/box1.jpg)
 </details>
 
-Painted the cardboard box and glued a small piece of cardboard for the base of the servo
+2. Painted the cardboard box and glued a small piece of cardboard for the base of the servo
 <details>
  <summary>Front view</summary>
  
@@ -94,4 +94,17 @@ Painted the cardboard box and glued a small piece of cardboard for the base of t
  <summary>Back view</summary>
  
  ![cardboard box](media/painted_backview.jpg)
+</details>
+
+<details>
+ <summary>Top view</summary>
+ 
+ ![cardboard box](media/painted_side2.jpg)
+</details>
+
+### Connecting all of the components based on hardware schematic
+<details>
+ <summary>Wiring</summary>
+ 
+ ![cardboard box](media/wiring.jpg)
 </details>
