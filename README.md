@@ -12,6 +12,7 @@ Matthew Tan, Gracen Wallace
   * [Hardware Schematics](#hardware-schematics)
 * [Software Setup](#software-setup)
   * [Installing & running GUI on the Raspberry Pi](#installing--running-gui-on-the-raspberry-pi)
+  * [Downloading MBED code](#downloading-mbed-code)
 * [Hardware Setup](#hardware-setup)
   * [Building the cardboard housing](#building-the-cardboard-housing)
   * [Connecting all of the components based on hardware schematic](#connecting-all-of-the-components-based-on-hardware-schematic)
@@ -72,6 +73,10 @@ nuget restore stock_trader.sln
 7. Run executable to load GUI on Pi (make sure mBED is already plugged into Pi's USB port)
 ```
 mono /home/pi/stock_trader/stock_trader/bin/Debug/stock_trader.exe
+```
+### Downloading MBED code
+```c
+
 ```
 
 ## Hardware Setup
