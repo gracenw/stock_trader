@@ -117,8 +117,8 @@ Cut and glued pieces of cardboard together to form the arrow
  ![cardboard box](media/arrow.jpg)
 </details>
 
-### Mounting the servo onto the housing
-Taped the servo arm onto the small cardboard base on top of the housing
+### Attaching the arrow onto the servo arm
+Taped arrow onto the servo arm
 <details>
  <summary>Servo mount</summary>
  
