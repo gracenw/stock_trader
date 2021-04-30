@@ -13,6 +13,7 @@ Matthew Tan, Gracen Wallace
 * [Software Setup](#software-setup)
   * [Installing & running GUI on the Raspberry Pi](#installing--running-gui-on-the-raspberry-pi)
 * [Hardware Setup](#hardware-setup)
+  * [Building the cardboard housing](#building-the-cardboard-housing)
 
 ## Summary
 
