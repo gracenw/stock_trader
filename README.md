@@ -130,3 +130,29 @@ Taped arrow onto the servo arm
  
  ![cardboard box](media/servomount1.jpg)
 </details>
+
+### Finished product
+After taping the servo onto the cardboard base on top of the housing and placing all of the components inside the housing
+<details>
+ <summary>Front view</summary>
+ 
+ ![cardboard box](media/frontview.jpg)
+</details>
+
+<details>
+ <summary>Back view</summary>
+ 
+ ![cardboard box](media/backview.jpg)
+</details>
+
+<details>
+ <summary>Side view</summary>
+ 
+ ![cardboard box](media/sideview.jpg)
+</details>
+
+<details>
+ <summary>Top view</summary>
+ 
+ ![cardboard box](media/topview.jpg)
+</details>
