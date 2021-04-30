@@ -76,5 +76,5 @@ A spare cardboard box to house all of the components
  
  ![cardboard box](media/box1.jpg)
  ![cardboard box](media/box2.jpg)
-<details>
+</details>
 
