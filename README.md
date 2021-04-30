@@ -74,6 +74,7 @@ nuget restore stock_trader.sln
 mono /home/pi/stock_trader/stock_trader/bin/Debug/stock_trader.exe
 ```
 ### Downloading MBED code
+With the [Servo](https://os.mbed.com/cookbook/Servo) library from the mbed cookbook, the following code will allow the mbed to control the servo using values sent by the RPI over serial
 ```c
 #include "mbed.h"
 #include "Servo.h"
