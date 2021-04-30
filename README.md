@@ -7,7 +7,9 @@ Matthew Tan, Gracen Wallace
 * [Parts List](#parts-list)
   * [Electrical Parts](#electrical-parts)
   * [Structural Parts](#structural-parts)
-* [Network Schematic](#network-schematic)
+* [Schematics](#schematics)
+  * [Network Schematic](#network-schematics)
+  * [Hardware Schematics](#hardware-schematics)
 * [Software Setup](#software-setup)
   * [Installing & running GUI on the Raspberry Pi](#installing--running-gui-on-the-raspberry-pi)
 * [Hardware Setup](#hardware-setup)
@@ -30,8 +32,12 @@ Matthew Tan, Gracen Wallace
 * Cardboard
 * Adhesive
 
-## Network Schematic
-![networkschematic](media/network.png)
+## Schematics
+### Network Schematic
+![network](media/network.png)
+### Hardware Schematics
+![breadboard](media/stocktrader_bb.png)
+![schematic](media/stocktrader_schem.png)
 
 ## Software Setup
 ### Installing & running GUI on the Raspberry Pi  
