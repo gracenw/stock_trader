@@ -82,3 +82,16 @@ A spare cardboard box to house all of the components
  
  ![cardboard box](media/box1.jpg)
 </details>
+
+Painted the cardboard box and glued a small piece of cardboard for the base of the servo
+<details>
+ <summary>Front view</summary>
+ 
+ ![cardboard box](media/painted_frontview.jpg)
+</details>
+
+<details>
+ <summary>Back view</summary>
+ 
+ ![cardboard box](media/painted_backview.jpg)
+</details>
